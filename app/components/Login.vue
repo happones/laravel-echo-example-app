@@ -21,15 +21,15 @@
     import * as http from 'tns-core-modules/http';
     import App from "./App";
 
-    const apiUrl = 'https://da92c0df.ngrok.io/api';
+    const apiUrl = 'https://b53f70cb.ngrok.io/api';
 
     export default {
         name: "Login",
         data() {
             return {
                 user: {
-                    // email: 'shad94@example.com',
-                    // password: 'password'
+                    email: 'test@mail.com',
+                    password: 'password'
                 }
             }
         },
